@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=ZCOOL+KuaiLe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.zcool{
+  font-family: 'ZCOOL KuaiLe', cursive;
+}
+.caveat{
+  font-family: 'Caveat', cursive;
+}
+.roboto{
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.fs-1{
+  font-size: 40px;
+}
+.fs-2{
+  font-size: 20px;
+}
+.movie-card:hover .card-img{
+  transform: scale(1.5);
+  opacity: .7;
+}
+.pointer{
+  cursor: pointer;
+}
+.movie-card{
+  overflow: hidden;
+}
+.card-img{
+  transition: .3s ease-in-out;
+}
+.bg-title{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.623), rgb(0,0,0,0), rgb(0,0,0,0), rgb(0,0,0,0));
+}
+.background {
+  background-color: #272b30;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.orange{
+  color: orangered;
+}
+.white{
+  color: #fff;
+}
+.red{
+  color: red;
+}
+
+.bg-orange{
+  background-color: orangered;
+}
+.line{
+  height: 3px;
+}
+.box-size{
+  box-sizing: content-box;
+}
+.size-image{
+  height: 250px;
+}
+.border-none{
+  border: none;
+}
+.btn-c{
+      display: inline-block;
+    font-weight: 400;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
 }
